@@ -41,10 +41,10 @@ public class EditCommand extends Command {
                 type = Types.MESSAGES;
                 break;
 
-            /*case "block":
+            case "block":
                 type = Types.BLOCK;
 
-                break;*/
+                break;
 
             default:
                 Utils.sendMessage(sender,ChatColor.GRAY + "/Infoheads " + getCommand() + " " + getUsage() + ChatColor.DARK_GRAY + " - " + ChatColor.GRAY + getDescription() );
